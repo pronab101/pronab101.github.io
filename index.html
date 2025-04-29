@@ -1,75 +1,51 @@
-<!DOCTYPE html>
-<html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Pronab Karmaker - Portfolio</title>
-    <link rel="stylesheet" href="styles.css">
-</head>
-<body>
-    <header>
-        <h1>Pronab Karmaker</h1>
-        <p>Software Engineer | Python, Java, TensorFlow, LLM, Machine Learning, Generative AI</p>
-        <nav>
-            <a href="#about">About</a>
-            <a href="#skills">Skills</a>
-            <a href="#experience">Experience</a>
-            <a href="#projects">Projects</a>
-            <a href="#contact">Contact</a>
-        </nav>
-    </header>
-    
-    <section id="about">
-        <h2>About Me</h2>
-        <p>Results-driven Software Engineer with 7+ years of experience in mobile and web application development, specializing in Android (Java, Kotlin) and Flutter. Skilled in full-stack development, cloud technologies, and DevOps. Developed an AI-powered Voice Tour Guide Map App for my MSc project. Passionate about leveraging AI in mobile applications to enhance user experience. Seeking a Software Developer role in the UK where I can contribute expertise in mobile app development, AI integration, and cloud computing.</p>
-    </section>
-    
-    <section id="skills">
-        <h2>Skills</h2>
-        <ul>
-             <li>Programming Languages: C, C++, Java, Dart, Python, R, Kotlin, PHP</li>
-             <li>Frameworks & Libraries: Spring Boot, RESTful APIs, SOAP, J2EE, Firebase Auth</li>
-             <li>Web Development: HTML, CSS, JavaScript, JSON, MySQL</li>
-             <li>Mobile Development: Android (Java, Kotlin), iOS (Xcode), Flutter</li>
-             <li>AI & Machine Learning: TensorFlow Lite, NLP, Computer Vision, AI Chatbots, Hugging Face Transformers</li>
-             <li>DevOps & Tools: AWS, Docker, Git</li>
-             <li>Others: Project Planning, Data Synchronization, Agile Development</li>
-             <li>Development Tools: Android Studio, Xcode, Visual Studio Code, GitHub, Bitbucket</li>
-        </ul>
-    </section>
-    
-    <section id="experience">
-        <h2>Experience</h2>
-        <h3>Software Engineer, Top Soft IT</h3>
-        <p>December 2016 – September 2023</p>
-        <ul>
-            <li>Developed advanced Android and iOS applications.</li>
-            <li>Led the development of cross-platform mobile apps using Flutter and Firebase.</li>
-            <li>Designed RESTful APIs and integrated backend services to improve app performance.</li>
-            <li>Mentored junior developers and collaborated with designers for UI/UX enhancements.</li>
-            <li>Optimized application load times, reducing latency by 30% through efficient API calls.</li>
-        </ul>
-    </section>
-    
-    <section id="projects">
-        <h2>Projects</h2>
-        <h3>AI-Enhanced Landmark Recognition Tour Guide</h3>
-        <h4>University of Bedfordshire</h4>
-        <p>Developed a Flutter-based AI-powered mobile app for real-time landmark recognition and voice guidance.</p>
-        <ul>
-            <li>Developed a Flutter-based mobile app that provides real-time AI-powered voice guidance for tourists.</li>
-            <li>Implemented TensorFlow Lite for landmark recognition.</li>
-            <li>Enabled Large Language Model (LLM) integration for interactive landmark discussions.</li>
-            <li>Integrated Hugging Face models for cloud-based landmark classification.</li>
-            <li>Optimized image processing to enhance detection accuracy, improving recognition rates by 40%.</li>
-        </ul>
-    </section>
-    
-    <section id="contact">
-        <h2>Contact</h2>
-        <p>Email: <a href="mailto:pronab.karmaker@study.beds.ac.uk">pronab.karmaker@study.beds.ac.uk</a></p>
-        <p>GitHub: <a href="https://github.com/pronab101" target="_blank">github.com/pronab101</a></p>
-        <p>LinkedIn: <a href="https://www.linkedin.com/in/pkarmaker1" target="_blank">linkedin.com/in/pkarmaker1</a></p>
-    </section>
-</body>
-</html>
+import React from "react";
+
+export default function Portfolio() {
+  return (
+    <main className="p-6 max-w-4xl mx-auto text-gray-800">
+      <section className="mb-10">
+        <h1 className="text-4xl font-bold mb-2">Pronab Karmaker</h1>
+        <p className="text-lg">Flutter Developer & AI Enthusiast based in the UK</p>
+        <div className="mt-4 space-x-4">
+          <a href="mailto:cse.pronab@gmail.com" className="text-blue-600 hover:underline">Email</a>
+          <a href="https://github.com/pronab101" className="text-blue-600 hover:underline">GitHub</a>
+          <a href="https://linkedin.com/in/pkarmaker1" className="text-blue-600 hover:underline">LinkedIn</a>
+        </div>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="text-2xl font-semibold mb-4">Featured Projects</h2>
+        <div className="grid md:grid-cols-2 gap-6">
+          <div className="p-4 border rounded-2xl shadow">
+            <h3 className="text-xl font-bold">Voice Tour Guide App</h3>
+            <p className="text-sm">Flutter app using TensorFlow Lite & Hugging Face to recognize landmarks and provide AI-driven narration.</p>
+            <a href="https://github.com/pronab101/voice-tour-guide" className="text-blue-600 hover:underline text-sm">View on GitHub</a>
+          </div>
+
+          <div className="p-4 border rounded-2xl shadow">
+            <h3 className="text-xl font-bold">Chashir Hasi Android App</h3>
+            <p className="text-sm">Award-winning agricultural app built for Bangladeshi farmers, recognized in Sylhet Science Fair & SUST Project Fair.</p>
+            <a href="https://github.com/pronab101/chashir-hasi" className="text-blue-600 hover:underline text-sm">View on GitHub</a>
+          </div>
+
+          <div className="p-4 border rounded-2xl shadow">
+            <h3 className="text-xl font-bold">AI Landmark Classifier</h3>
+            <p className="text-sm">Uses image processing and Hugging Face models to classify global monuments with 40% improved accuracy.</p>
+            <a href="https://github.com/pronab101/landmark-ai" className="text-blue-600 hover:underline text-sm">View on GitHub</a>
+          </div>
+        </div>
+      </section>
+
+      <section className="mb-10">
+        <h2 className="text-2xl font-semibold mb-4">Resume</h2>
+        <a href="/Pronab_Karmaker_CV_UK.pdf" className="text-blue-600 hover:underline">Download PDF</a>
+      </section>
+
+      <section>
+        <h2 className="text-2xl font-semibold mb-4">Contact</h2>
+        <p>Email: <a href="mailto:cse.pronab@gmail.com" className="text-blue-600 hover:underline">cse.pronab@gmail.com</a></p>
+        <p>LinkedIn: <a href="https://linkedin.com/in/pkarmaker1" className="text-blue-600 hover:underline">pkarmaker1</a></p>
+      </section>
+    </main>
+  );
+}
