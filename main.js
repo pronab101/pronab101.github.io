@@ -24,7 +24,13 @@
         <div class="p-4 border rounded-2xl shadow">
           <h3 class="text-xl font-bold">Voice Tour Guide App</h3>
           <p class="text-sm">Flutter app using TensorFlow Lite & Hugging Face to recognize landmarks and provide AI-driven narration.</p>
-          <a href="https://github.com/pronab101/Voice-Tour-Guide-App" class="text-blue-600 hover:underline text-sm">View on GitHub</a>
+          <a href="https://github.com/pronab101/voice-tour-guide" class="text-blue-600 hover:underline text-sm">View on GitHub</a>
+        </div>
+
+        <div class="p-4 border rounded-2xl shadow">
+          <h3 class="text-xl font-bold">Chashir Hasi Android App</h3>
+          <p class="text-sm">Award-winning agricultural app built for Bangladeshi farmers, recognized in Sylhet Science Fair & SUST Project Fair.</p>
+          <a href="https://github.com/pronab101/chashir-hasi" class="text-blue-600 hover:underline text-sm">View on GitHub</a>
         </div>
 
         <div class="p-4 border rounded-2xl shadow">
