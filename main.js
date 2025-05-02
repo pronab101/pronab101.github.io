@@ -10,9 +10,9 @@ const projects = [
     link: "https://github.com/pronab101/chashir-hasi"
   },
   {
-    title: "AI Landmark Classifier",
-    description: "Uses image processing and Hugging Face models to classify global monuments with 40% improved accuracy.",
-    link: "https://github.com/pronab101/landmark-ai"
+    title: "Jewellery Gold Price Calculator",
+    description: "Live Android app available on Google Play Store for calculating gold price based on weight and purity.",
+    link: "https://play.google.com/store/apps/details?id=com.pronab.jewellerycalculator&hl=en"
   }
 ];
 
