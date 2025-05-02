@@ -2,12 +2,12 @@ const projects = [
   {
     title: "Voice Tour Guide App",
     description: "Flutter app using TensorFlow Lite & Hugging Face to recognize landmarks and provide AI-driven narration.",
-    link: "https://github.com/pronab101/voice-tour-guide"
+    link: "https://github.com/pronab101/Voice-Tour-Guide-App"
   },
   {
-    title: "Chashir Hasi Android App",
-    description: "Award-winning agricultural app built for Bangladeshi farmers, recognized in Sylhet Science Fair & SUST Project Fair.",
-    link: "https://github.com/pronab101/chashir-hasi"
+    title: "Image Classification TFLite",
+    description: "An image classification project using TensorFlow and Keras to create a CNN model, train it on a custom dataset, and deploy it in TensorFlow Lite (TFLite) format for compatibility with mobile and edge devices.",
+    link: "https://github.com/pronab101/Image-Classification-TFLite"
   },
   {
     title: "Jewellery Gold Price Calculator",
