@@ -16,7 +16,7 @@ const projects = [
   },
   {
     title: "Lead Academy – Training Advertisement",
-    description: "Promotional motion graphics video created for Lead Academy to advertise their training programs. This ad uses dynamic transitions, typography, and visual storytelling to engage viewers and boost course sign-ups.",
+    description: "Promotional motion graphics video created for Lead Academy to advertise their training programs.",
     videoLink: "https://www.youtube.com/embed/ZrvNokqoDXI"
   }
 ];
