@@ -23,6 +23,11 @@ const projects = [
     title: "Jewellery Gold Price Calculator – App Tutorial",
     description: "Tutorial showing how to use the Jewellery Gold Price Calculator Android app to compute gold prices based on weight and purity using real-time data.",
     videoLink: "https://www.youtube.com/embed/cLHP_NzeS-k"
+  },
+  {
+  title: "Personal Logo Animation",
+  description: "An 8-second animated logo reveal that reflects my motion design style and personal brand. Created using Veo and After Effects for sound and polish.",
+  videoLink: "https://www.youtube.com/watch?v=dhey3JSlP8w"
   }
 ];
 
