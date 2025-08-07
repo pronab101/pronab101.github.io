@@ -6,8 +6,8 @@ const projects = [
   },
   {
     title: "Product Teaser Animation",
-    description: "30-second promotional teaser created in Blender and After Effects. Used 3D product modeling and sleek motion design.",
-    videoLink: "https://www.youtube.com/embed/your_other_video_id"
+    description: "Promotional teaser created in Blender and After Effects. Used 3D product modeling and sleek motion design.",
+    videoLink: "https://youtu.be/QxYLPgJIxHA"
   },
   {
     title: "Logo Animation Reel",
