@@ -13,6 +13,11 @@ const projects = [
     title: "Logo Animation Reel",
     description: "A collection of animated logos designed for clients in tech, fashion, and education industries.",
     videoLink: "https://www.youtube.com/embed/your_reel_id"
+  },
+  {
+    title: "Lead Academy – Training Advertisement",
+    description: "Promotional motion graphics video created for Lead Academy to advertise their training programs. This ad uses dynamic transitions, typography, and visual storytelling to engage viewers and boost course sign-ups.",
+    videoLink: "https://www.youtube.com/embed/ZrvNokqoDXI"
   }
 ];
 
