@@ -7,7 +7,7 @@ const projects = [
   {
     title: "Product Teaser Animation",
     description: "Promotional teaser created in Blender and After Effects. Used 3D product modeling and sleek motion design.",
-    videoLink: "https://www.youtube.com/watch?v=QxYLPgJIxHA"
+    videoLink: "https://www.youtube.com/wembed/QxYLPgJIxHA"
   },
   {
     title: "Logo Animation Reel",
@@ -27,7 +27,7 @@ const projects = [
   {
   title: "Personal Logo Animation",
   description: "An 8-second animated logo reveal that reflects my motion design style and personal brand. Created using Veo and After Effects for sound and polish.",
-  videoLink: "https://www.youtube.com/watch?v=dhey3JSlP8w"
+  videoLink: "https://www.youtube.com/embed/dhey3JSlP8w"
   }
 ];
 
