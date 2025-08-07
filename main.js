@@ -18,6 +18,11 @@ const projects = [
     title: "Lead Academy – Training Advertisement",
     description: "Promotional motion graphics video created for Lead Academy to advertise their training programs.",
     videoLink: "https://www.youtube.com/embed/ZrvNokqoDXI"
+  },
+  {
+    title: "Jewellery Gold Price Calculator – App Tutorial",
+    description: "Tutorial showing how to use the Jewellery Gold Price Calculator Android app to compute gold prices based on weight and purity using real-time data.",
+    videoLink: "https://www.youtube.com/embed/cLHP_NzeS-k"
   }
 ];
 
