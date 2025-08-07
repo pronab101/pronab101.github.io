@@ -1,8 +1,8 @@
 const projects = [
   {
-    title: "Explainer Animation for FinTech",
-    description: "A motion graphic explainer created in After Effects for a FinTech startup. Focused on visual storytelling with clean transitions and icon animation.",
-    videoLink: "https://www.youtube.com/embed/your_video_id"
+    title: "Mobile App Motion Graphics",
+    description: "Motion graphics video created for a mobile app showcasing UI animations and transitions. Designed using After Effects.",
+    videoLink: "https://www.youtube.com/embed/_fpWm4MeNwI"
   },
   {
     title: "Product Teaser Animation",
