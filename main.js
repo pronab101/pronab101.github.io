@@ -12,7 +12,7 @@ const projects = [
   {
     title: "Logo Animation Reel",
     description: "A collection of animated logos designed for clients in tech, fashion, and education industries.",
-    videoLink: "https://www.youtube.com/watch?v=Mz2cOFDB0DI"
+    videoLink: "https://www.youtube.com/embed/Mz2cOFDB0DI"
   },
   {
     title: "Lead Academy – Training Advertisement",
